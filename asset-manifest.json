@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/REACTASSIGNMENT_NXTWAVE/static/css/main.4d2ce794.css",
+    "main.js": "/REACTASSIGNMENT_NXTWAVE/static/js/main.a73581f6.js",
+    "index.html": "/REACTASSIGNMENT_NXTWAVE/index.html",
+    "main.4d2ce794.css.map": "/REACTASSIGNMENT_NXTWAVE/static/css/main.4d2ce794.css.map",
+    "main.a73581f6.js.map": "/REACTASSIGNMENT_NXTWAVE/static/js/main.a73581f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d2ce794.css",
+    "static/js/main.a73581f6.js"
+  ]
+}
