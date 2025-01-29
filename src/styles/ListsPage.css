@@ -1,0 +1,14 @@
+.lists-container {
+  text-align: center;
+}
+.lists-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.create-list-button {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}

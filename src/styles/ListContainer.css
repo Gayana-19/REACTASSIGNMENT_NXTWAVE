@@ -1,0 +1,44 @@
+.list-container {
+  flex: 1;
+  max-width: 300px; /* Adjust width if needed */
+  background-color: lightblue;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures only the list scrolls */
+  display: flex;
+  flex-direction: column;
+}
+
+.list-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.list-items {
+  flex-grow: 1;
+  overflow-y: auto; /* Enables scrolling within each container */
+  max-height: 400px; /* Set max height for scrollable area */
+  padding-right: 5px; /* Prevents content from touching scrollbar */
+}
+
+/* Optional: Customize scrollbar */
+.list-items::-webkit-scrollbar {
+  width: 6px;
+}
+
+.list-items::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.list-item {
+  background: white;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    overflow-y: auto;
+    max-height:1px;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .lists-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
